@@ -105,3 +105,67 @@ ul {
 
 
 /* Tablet Styling */
+@media (max-width: 768px) {
+
+/* Main styling */
+body {
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.social-card {
+    width: 456px;
+    background-color: #1F1F1F;
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.profile-pic {
+    width: 88px;
+    height: 88px;
+    margin: 0px auto;
+    border-radius: 999px;
+    object-fit: cover;
+    display: block;
+
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: none;
+
+    .button {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        border-radius: 8px;
+        background-color: #333333;
+        border: none;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+}
