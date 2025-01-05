@@ -37,7 +37,7 @@
 }
 
 
-/* Main styling */
+/* Desktop styling */
 body {
     background-color: #141414;
     width: 100vw;
@@ -107,7 +107,6 @@ ul {
 /* Tablet Styling */
 @media (max-width: 768px) {
 
-/* Main styling */
 body {
     background-color: #141414;
     width: 100vw;
@@ -165,6 +164,78 @@ ul {
         letter-spacing: 0px;
         font-weight: 600;
         cursor: pointer;
+    }
+}
+
+}
+
+/* Mobile Styling */
+@media (max-width: 440px) {
+
+
+body {
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-card {
+    width: 100%;
+    max-width: 327px;
+    background-color: #1F1F1F;
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.profile-pic {
+    width: 88px;
+    height: 88px;
+    margin: 0px auto;
+    border-radius: 999px;
+    object-fit: cover;
+    display: block;
+
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: none;
+
+    .button {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        border-radius: 8px;
+        background-color: #333333;
+        border: none;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: #C4F82A;
+        color: #333333;
+        
     }
 }
 
